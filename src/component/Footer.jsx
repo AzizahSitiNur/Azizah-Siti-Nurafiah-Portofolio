@@ -13,13 +13,13 @@ const Footer = () => {
             <a href="https://github.com/AzizahSitiNur">
                 <i className='ri-github-fill ri-2x'></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/asn.a_?igsh=cWc2bjJnODZkb3dy">
                 <i className='ri-instagram-fill ri-2x'></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/azizah-siti-nurafiah">
                 <i className='ri-linkedin-fill ri-2x'></i>
             </a>
-            <a href="#">
+            <a href="mailto:azizahsitinurafiah@gmail.com">
                 <i className='ri-mail-fill ri-2x'></i>
             </a>
         </div>

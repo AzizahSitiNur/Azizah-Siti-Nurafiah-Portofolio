@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Portofolio/', // <-- SESUAIKAN DENGAN NAMA REPO DI GITHUB
+  base: '/Azizah-Siti-Nurafiah-Portofolio/', 
   plugins: [
     react({
       babel: {

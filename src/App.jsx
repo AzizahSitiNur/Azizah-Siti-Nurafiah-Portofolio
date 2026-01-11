@@ -41,9 +41,9 @@ function App() {
               <img src={DataImage.HeroImage} alt="Home" className="w-80 rounded-2xl" />
             </div>
             <div>
-              <h1 className="text-3xl font-semibold italic">Welcome to My Portfolio</h1>
-              <h1 className="text-4xl/tight font-bold mb-6 pt-5">Hello! My name is Azizah Siti Nurafiah</h1>
-              <p className="text-base/loose mb-6 opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis odio sed nulla praesentium. Soluta pariatur dolore minima, hic earum in placeat possimus nemo doloremque aut blanditiis iste eos aliquam.</p>
+              <h1 className="text-3xl font-semibold italic">Salam Kenal</h1>
+              <h1 className="text-4xl/tight font-bold mb-6 pt-5">Halo! Saya Azizah Siti Nurafiah</h1>
+              <p className="text-base/loose mb-6 opacity-75">Mahasiswa Informatika dengan ketertarikan pada pengembangan perangkat lunak. Berpengalaman mengerjakan proyek berbasis web dan aplikasi interaktif sebagai bagian dari pengembangan skill dan portofolio personal.</p>
               <div className="grid grid-cols-2 sm:gap-4 gap-2">
                 <button className="bg-[#3c5070] font-bold rounded-2xl py-2 m-4 hover:bg-[#213a56] text-white"><a href="#proyek">Lihat Project</a></button>
                 <button className="bg-[#3c5070] font-bold rounded-2xl py-2 m-4 hover:bg-[#213a56] text-white"><a href="#kontak">Let's connect</a></button>
@@ -78,16 +78,16 @@ function App() {
           ) : (
             <>
               <img src={DataImage.HeroImage} alt="Home" className="w-12 rounded-md mb-10 sm:hidden" />
-              <p className="text-base/loose mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat fuga recusandae temporibus ad ipsa! Recusandae, odit autem. Dolor nesciunt maxime earum consectetur corrupti, debitis culpa tempore illum quos dicta animi.</p>
+              <p className="text-base/loose mb-10">Saya adalah mahasiswa Informatika yang memiliki ketertarikan pada pengembangan perangkat lunak. Saya menikmati proses merancang dan mengembangkan aplikasi, baik berbasis web maupun aplikasi interaktif. Melalui berbagai proyek akademik dan personal, saya terbiasa mengolah logika program, mengelola data, serta membangun aplikasi yang fungsional dan mudah digunakan. Saya terus berusaha mengembangkan kemampuan teknis dan pemahaman konsep software sebagai bekal untuk berkarier di bidang teknologi.</p>
               <div className="flex items-center justify-between">
                 <img src={DataImage.HeroImage} alt="Home" className="w-12 rounded-md sm:block hidden" />
                 <div className="flex items-center gap-6">
                   <div>
-                    <h1 className="text-4xl mb-1">4<span className="text-[#3c5070]">+</span></h1>
+                    <h1 className="text-4xl mb-1"><span className="text-[#3c5070]">3</span></h1>
                     <p>Projects Web Completed</p>
                   </div>
                   <div>
-                    <h1 className="text-4xl mb-1">2<span className="text-[#3c5070]">+</span></h1>
+                    <h1 className="text-4xl mb-1"><span className="text-[#3c5070]">3</span></h1>
                     <p>Projects Games Completed</p>
                   </div>
                 </div>
@@ -288,7 +288,7 @@ function App() {
     </div>
 
     {/* Contact Section */}
-    <div className="kontak mt-20 sm:p-10 p-0">
+    <div className="kontak mt-20 sm:p-10 p-0" id="kontak">
       {loading ? (
         <div className="animate-pulse">
           <div className="h-9 w-40 bg-zinc-300 rounded mx-auto mb-3" />

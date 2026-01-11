@@ -111,6 +111,7 @@ export const listTools = [
 import Proyek1Screen1 from "/assets/proyek/Screenshot 2026-01-11 160130.webp";
 import Proyek2Screen1 from "/assets/proyek/Screenshot (336).png";
 import Proyek3Screen1 from "/assets/proyek/login.png";
+import Proyek4Screen1 from "/assets/proyek/Screenshot (479).png";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
@@ -130,6 +131,10 @@ import Proyek19 from "/assets/proyek/dashboard_admin.png";
 import Proyek20 from "/assets/proyek/dashboard_user.png";
 import Proyek21 from "/assets/proyek/kalender_user.png";
 import Proyek22 from "/assets/proyek/laporan_peminjaman.png";
+import Proyek23 from "/assets/proyek/Screenshot (480).png";
+import Proyek24 from "/assets/proyek/Screenshot (481).png";
+import Proyek25 from "/assets/proyek/Screenshot (482).png";
+
 
 export const listProyek = [
   {
@@ -173,12 +178,15 @@ export const listProyek = [
   },
   {
     id: 4,
-    gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    gallery: [Proyek4],
-    kategori: "website",
+    gambar: Proyek4Screen1,
+    nama: "Path of Relics",
+    desk: "Sebuah game petualangan 2D side-scrolling platformer yang menggabungkan mengumpulkan item dan pertarungan dalam dunia fantasi.",
+    detail:"Path of Relics adalah game petualangan 2D side-scrolling platformer yang mengajak pemain menjelajahi dunia fantasi penuh tantangan. Pemain mengendalikan karakter utama untuk mengumpulkan artefak kuno sambil menghadapi berbagai musuh dan rintangan. Game ini menampilkan grafis pixel art yang menarik dan mekanika permainan yang seru, termasuk lompatan presisi, serangan musuh, dan pengumpulan item sederhana. Dibangun menggunakan Unity, Path of Relics menawarkan pengalaman bermain yang menyenangkan dengan kontrol yang responsif dan desain level yang kreatif.",
+    tools: ["Unity", "C#", "Aseprite", "Canva"],
+    tahun:"2025",
+    sourceCode:"",
+    gallery: [Proyek4Screen1, Proyek23, Proyek24, Proyek25],
+    kategori: "games",
     dad: "500",
   },
   {

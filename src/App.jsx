@@ -327,7 +327,7 @@ function App() {
       ) : (
         <>
           <h1 className="text-4xl mb-2 font-bold text-center">Kontak</h1>
-          <p className="text-base/loose text-center mb-10 opacity-70">Mari terhubung dengan saya melalui email (azizahsitinurafiah@gmail.com) maupun isi form di bawah</p>
+          <p className="text-base/loose text-center mb-10 opacity-70">Mari terhubung dengan saya melalui email (azizahsitinurafiah@gmail.com) maupun isi form di bawah.</p>
           <form
             action="https://formsubmit.co/azizahsitinurafiah@gmail.com"
             method="POST"

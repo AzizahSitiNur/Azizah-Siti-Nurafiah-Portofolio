@@ -98,6 +98,7 @@ import Proyek1Screen1 from "/assets/proyek/Screenshot 2026-01-11 160130.webp";
 import Proyek2Screen1 from "/assets/proyek/Screenshot (336).png";
 import Proyek3Screen1 from "/assets/proyek/login.png";
 import Proyek4Screen1 from "/assets/proyek/Screenshot (479).png";
+import Proyek5Screen1 from "/assets/proyek/Screenshot 2026-01-11 225307.png";
 import Proyek7 from "/assets/proyek/Screenshot 2026-01-11 152643.webp";
 import Proyek8 from "/assets/proyek/Screenshot 2026-01-11 160209.webp";
 import Proyek9 from "/assets/proyek/Screenshot 2026-01-11 163228.webp";
@@ -117,6 +118,10 @@ import Proyek22 from "/assets/proyek/laporan_peminjaman.png";
 import Proyek23 from "/assets/proyek/Screenshot (480).png";
 import Proyek24 from "/assets/proyek/Screenshot (481).png";
 import Proyek25 from "/assets/proyek/Screenshot (482).png";
+import Proyek26 from "/assets/proyek/Screenshot 2026-01-11 225000.png";
+import Proyek27 from "/assets/proyek/Screenshot 2026-01-11 225040.png";
+import Proyek28 from "/assets/proyek/Screenshot 2026-01-11 230323.png";
+
 
 
 export const listProyek = [
@@ -169,6 +174,19 @@ export const listProyek = [
     tahun:"2025",
     sourceCode:"",
     gallery: [Proyek4Screen1, Proyek23, Proyek24, Proyek25],
+    kategori: "games",
+    dad: "500",
+  },
+  {
+    id: 5,
+    gambar: Proyek5Screen1,
+    nama: "Ambalari",
+    desk: "Sebuah game VR yang mengangkat tema horror sehingga memberikan pengalaman menegangkan bagi pemainnya.",
+    detail:"Ambalari adalah game VR horror yang dirancang untuk memberikan pengalaman menegangkan bagi para pemainnya. Dalam game ini, pemain akan menjelajahi lingkungan yang mencekam, menghadapi berbagai jumpscare dan berusaha keluar dari looping yang memuakkan. Dengan grafis yang realistis dan efek suara yang mendalam, Ambalari menciptakan atmosfer horor yang intens. Game ini dikembangkan menggunakan Unity dan dirancang khusus untuk platform VR Oculus, memungkinkan pemain merasakan sensasi berada langsung di dalam dunia permainan.",
+    tools: ["Unity", "C#", "Blender"],
+    tahun:"2025",
+    sourceCode:"",
+    gallery: [Proyek5Screen1, Proyek26, Proyek27, Proyek28],
     kategori: "games",
     dad: "500",
   },

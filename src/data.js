@@ -30,25 +30,11 @@ export const listTools = [
     dad: "100",
   },
   {
-    id: 2,
-    gambar: Tools2,
-    nama: "React JS",
-    ket: "Framework",
-    dad: "200",
-  },
-  {
     id: 3,
     gambar: Tools3,
     nama: "Blender",
     ket: "3D Modeling",
     dad: "300",
-  },
-  {
-    id: 4,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
-    dad: "400",
   },
   {
     id: 5,

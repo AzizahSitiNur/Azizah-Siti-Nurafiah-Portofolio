@@ -112,9 +112,6 @@ import Proyek1Screen1 from "/assets/proyek/Screenshot 2026-01-11 160130.webp";
 import Proyek2Screen1 from "/assets/proyek/Screenshot (336).png";
 import Proyek3Screen1 from "/assets/proyek/login.png";
 import Proyek4Screen1 from "/assets/proyek/Screenshot (479).png";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
 import Proyek7 from "/assets/proyek/Screenshot 2026-01-11 152643.webp";
 import Proyek8 from "/assets/proyek/Screenshot 2026-01-11 160209.webp";
 import Proyek9 from "/assets/proyek/Screenshot 2026-01-11 163228.webp";
@@ -188,26 +185,6 @@ export const listProyek = [
     gallery: [Proyek4Screen1, Proyek23, Proyek24, Proyek25],
     kategori: "games",
     dad: "500",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    gallery: [Proyek5],
-    kategori: "website",
-    dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    gallery: [Proyek6],
-    kategori: "website",
-    dad: "700",
   },
 ];
 

@@ -7,6 +7,13 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [filterProyek, setFilterProyek] = useState("website");
 
+  const websiteProjectCount = listProyek.filter(
+    (proyek) => proyek.kategori === "website"
+  ).length;
+  const gameProjectCount = listProyek.filter(
+    (proyek) => proyek.kategori === "games"
+  ).length;
+
   useEffect(() => {
     // simulasi loading data (misal dari API)
     const timer = setTimeout(() => {
@@ -83,12 +90,16 @@ function App() {
                 <img src={DataImage.HeroImage} alt="Home" className="w-12 rounded-md sm:block hidden" />
                 <div className="flex items-center gap-6">
                   <div>
-                    <h1 className="text-4xl mb-1"><span className="text-[#3c5070]">3</span></h1>
-                    <p>Projects Web Completed</p>
+                    <h1 className="text-4xl mb-1">
+                      <span className="text-[#3c5070]">{websiteProjectCount}</span>
+                    </h1>
+                    <p>Proyek Website</p>
                   </div>
                   <div>
-                    <h1 className="text-4xl mb-1"><span className="text-[#3c5070]">3</span></h1>
-                    <p>Projects Games Completed</p>
+                    <h1 className="text-4xl mb-1">
+                      <span className="text-[#3c5070]">{gameProjectCount}</span>
+                    </h1>
+                    <p>Proyek Game</p>
                   </div>
                 </div>
               </div>
